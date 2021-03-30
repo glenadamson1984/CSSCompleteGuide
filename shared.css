@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px ;
+    vertical-align: middle;
+}
+
+.main-header__title a {
+    text-decoration: none;
+}
+
+.main-header__title {
+    display: inline-block;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 70px);
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    
+}
+
+.main-nav__item  a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item  a:active,
+.main-nav__item  a:hover {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item-cta a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item-cta a:active,
+.main-nav__item-cta a:hover {
+    color: #ff1b68;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.main-footer {
+    background-color: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: white;
+    color: #0e4f1f
+}
+
+.button:focus {
+    outline: none;
+}
