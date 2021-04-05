@@ -1,6 +1,8 @@
  .testimonial {
     font-size: 1.2rem;
     /* margin: 48px 0; */
+    /* we can use rem for margins/padding and others also but worth being careful as the margins will increase
+    if someone adjusts their brower fonts size */
   }
   
     .testimonial__list {
