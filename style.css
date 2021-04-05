@@ -39,6 +39,7 @@
 
 .plans__list {
     width: 90%;
+    /* used to center things without flexbox */
     margin: auto;
     text-align: center;
 }
